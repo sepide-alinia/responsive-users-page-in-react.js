@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+ /* full screen  */
+@media(max-width:1600px){
+    .bodyWrapper{
+    margin-top: 5.5rem;
+    display: flex;
+    
+}
+}
+
+
+
+
+
+/* tablet 768 ta 500  */
+@media(max-width:768px){
+    .bodyWrapper{
+        flex-direction: column;
+        margin-top: 2rem
+    } ;
+}
+
+
+
+/* phone 500 ta 0 */
+
+
+
+
+@media(max-width:500px){
+   
+}

@@ -1,0 +1,85 @@
+
+
+ /* full screen  */
+@media(max-width:1600px){
+   .mainWrapper h3{
+   margin-bottom: 5px;
+   color: #4771B9;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: left;
+    
+}
+
+.mainWrapper h3:hover{
+    cursor: default;
+}
+
+.cardWrapper{
+   
+    border: 2px solid #4771B9;
+    height: 650px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+}
+
+
+
+/* wide 1200 ta 1400 */
+@media(max-width:1500px){
+   
+    .cardWrapper{
+
+        border: 2px solid #4771B9;
+        height: 650px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: space-between;
+        scrollbar-width: none;
+        overflow-y: auto;
+    }
+
+}
+
+
+
+
+
+
+
+/* tablet 768 ta 500  */
+@media(max-width:768px){
+   .cardWrapper{
+    border: none;
+    padding: 1rem 0 0;
+    margin-bottom: 4rem;
+   }
+
+   .header{
+    display: none;
+   }
+   
+}
+
+
+
+/* phone 500 ta 0 */
+
+@media(max-width:500px){
+   
+
+}
+
+
+
+
+
+

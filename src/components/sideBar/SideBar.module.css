@@ -1,0 +1,195 @@
+
+/* full screen */
+@media(max-width:1600px){
+    .sideBarWrapper{
+        margin-right: 1rem;
+        width: 450px;
+        background-color: #4771B9;
+        border-radius: 20px;
+        height: 650px;
+        padding: 1rem 2rem;
+        color: #FFF;
+    }
+    
+     h3:hover{
+        cursor: default;
+    }
+    h2{
+        display: none;
+    }
+
+    .tags{
+        display: none;
+    }
+    .btnWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tagBtnWrapper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .tagBtnWrapper button{
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: #003A9C;
+        color: #FFF;
+        padding: 10px 0;
+    }
+    .tagBtnWrapper button:hover{
+        background-color:#002666;
+        cursor: pointer;
+    }
+    
+    .addBtnWrapper{
+      width: 100%;
+      text-align: center;
+      margin-top: 35px;
+    }
+    
+    .addBtnWrapper button{
+        font-family: Anek Kannada;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 36.74px;
+        text-align: center;
+        width: 100%;
+        border-radius: 15px;
+        background: #FFFFFFCC;
+        color: #4771B9;
+        border: none;
+        padding: 7px 0;
+    }
+    
+    .addBtnWrapper button:hover{
+        background-color: #FFF;
+    }
+
+}
+
+
+
+/* normal 1200 ta 768 */
+@media(max-width:1200px){
+    .sideBarWrapper{
+   
+        
+            margin-right: 1rem;
+            width: 350px;
+            background-color: #4771B9;
+            border-radius: 20px;
+            height: 650px;
+            padding: 1rem 2rem;
+            color: #FFF;
+        
+      
+    }
+
+}
+
+
+
+
+/* tablet 768 ta 500 */
+@media(max-width:768px){
+    .sideBarWrapper{
+       width: 100%;
+        height: 80vh;
+        margin-bottom: 1rem;
+    }
+    .title{
+        display: none;
+    }
+    h3{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    h2{
+        display:block;
+        text-align: center;
+    }
+
+    .inputWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    .tags{
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .tagBtnWrapper{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+    .tagBtnWrapper button{
+        width: 32%;
+        padding: 20px 2rem;
+        background-color:#003A9C;
+        cursor: pointer;
+    }
+
+    .addBtnWrapper{
+        margin: 10px 0;
+    }
+    .addBtnWrapper button{
+        background-color: #FFF;
+        margin-top: 4rem;
+        padding: 1rem 0;
+    }
+
+
+}
+
+
+
+/* phone 500 ta 0*/
+
+
+
+
+@media(max-width:500px){
+    .sideBarWrapper{
+   
+        height: 60vh;  
+
+}
+
+.tags{
+
+    margin-top: 1rem;
+}
+
+.tagBtnWrapper{
+
+    margin-top: 10px;
+}
+.tagBtnWrapper button{
+    width: 32%;
+    padding: 10px 8px;
+}
+
+.addBtnWrapper{
+    margin: 8px 0;
+}
+.addBtnWrapper button{
+    background-color: #FFF;
+    margin-top: 0rem;
+    padding: 5px 0;
+}
+
+
+}

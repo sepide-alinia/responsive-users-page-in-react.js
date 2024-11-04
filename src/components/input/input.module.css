@@ -1,0 +1,37 @@
+
+
+input{
+    font-family: "Be Vietnam";
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 1rem;
+    width: 100%;
+    color: #FFF;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255,.3);
+    padding: 10px 15px;
+}
+
+
+input::placeholder{
+    color: #FFF;
+}
+
+input:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #002668;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #EEE8A9;
+    background-color: #FFF;
+}
+
+@media(max-width:768px){
+ input{
+    width: 49%;
+ }
+
+}
